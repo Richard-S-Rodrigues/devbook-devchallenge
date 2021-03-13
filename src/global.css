@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+
+  box-sizing: border-box;
+}
+
+:root {
+  --color-background-dark: #121214;
+  --color-white: #fff;
+  --color-green: #04d361;
+  --color-purple: #6134c9;
+  --color-light-purple: #8d6cd9;
+}
+
+body {
+  background: var(--color-background-dark);
+}
