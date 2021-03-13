@@ -1,0 +1,25 @@
+.mainContainer {
+  color: var(--color-white);
+  background: transparent;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+  margin-top: 4em;
+  padding: 2em 4em;
+
+  width: 50em;
+}
+
+.mainContainer img {
+  width: 20em;
+}
+
+@media (max-width: 653px) {
+  .mainContainer {
+    flex-direction: column;
+    width: 95%;
+  }
+}

@@ -16,4 +16,7 @@
 
 body {
   background: var(--color-background-dark);
+
+  width: 100vw;
+  height: 100vh;
 }

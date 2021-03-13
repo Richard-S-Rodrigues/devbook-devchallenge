@@ -32,3 +32,27 @@
 
   padding: 1em;
 }
+
+.searchIcon {
+  background: #fff;
+  font-size: 22px;
+  position: absolute;
+  right: 2em;
+  top: 1.5em;
+}
+
+@media (max-width: 463px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .searchBoxContainer input {
+    margin-top: 1em;
+  }
+
+  .searchIcon {
+    top: 4em;
+    right: 3em;
+  }
+}

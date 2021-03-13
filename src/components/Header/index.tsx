@@ -12,15 +12,7 @@ const Header = () => {
             </div>
             <div className={styles.searchBoxContainer}>
                 <input type="text" placeholder="Search for user" />
-                <BiSearchAlt2
-                    style={{
-                        background: "#fff",
-                        fontSize: "22px",
-                        position: "absolute",
-                        right: "2em",
-                        top: "1.5em",
-                    }}
-                />
+                <BiSearchAlt2 className={styles.searchIcon} />
             </div>
         </header>
     );
