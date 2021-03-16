@@ -1,4 +1,5 @@
 import Header from "../../components/Header";
+import Users from "../Users";
 
 import Octocat from "../../assets/octocat.png";
 
@@ -13,6 +14,10 @@ const Home = () => {
                 <h1>See the stats from Github users</h1>
                 <img src={Octocat} alt="Octocat" />
             </div>
+
+            <>
+                <Users />
+            </>
         </>
     );
 };

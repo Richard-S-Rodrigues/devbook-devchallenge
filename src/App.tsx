@@ -5,11 +5,11 @@ import Home from "./pages/Home";
 import "./global.css";
 
 function App() {
-  return (
-    <div>
-      <Home />
-    </div>
-  );
+    return (
+        <div>
+            <Home />
+        </div>
+    );
 }
 
 export default App;
